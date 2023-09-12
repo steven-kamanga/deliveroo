@@ -6,7 +6,7 @@ const Body = () => {
   return (
     <ScrollView
       contentContainerStyle={{
-        paddingBottom: 100,
+        paddingBottom: 200,
       }}
     >
       <Categories />

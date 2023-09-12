@@ -24,9 +24,15 @@ const SIZES = {
   s15: 15,
   s16: 16,
   s20: 20,
+  s22: 22,
   s30: 30,
   s32: 32,
   s35: 35,
 };
 
-export { COLORS, FONT, SIZES };
+const OPACITY = {
+  o0_5: 0.5,
+  o0_4: 0.4,
+};
+
+export { COLORS, FONT, SIZES, OPACITY };

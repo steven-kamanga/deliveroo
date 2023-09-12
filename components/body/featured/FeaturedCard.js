@@ -1,6 +1,7 @@
 import { View, Text, ScrollView, TouchableOpacity } from "react-native";
 import { ArrowRightIcon } from "react-native-heroicons/outline";
 import { COLORS, SIZES } from "../../../constants";
+import RestaurantCard from "./restaurant/RestaurantCard";
 
 const FeaturedCard = ({ title, id, description }) => {
   return (
@@ -13,13 +14,35 @@ const FeaturedCard = ({ title, id, description }) => {
       </View>
       <Text className="text-gray-500 text-xs">{description}</Text>
       <ScrollView
-        className="pt4"
+        className="pt-4"
         horizontal
         showsHorizontalScrollIndicator={false}
-        contentContainerStyle={{
-          paddingHorizontal: SIZES.s15,
-        }}
-      ></ScrollView>
+      >
+        <RestaurantCard
+          id={1}
+          imgUrl={"https://links.papareact.com/gn7"}
+          title={"Homers"}
+          rating={3}
+          genre={"Halaal"}
+          address={"Lilongwe"}
+          short_description={"Best pork and stuff"}
+          dishes={"Alot"}
+          long={22.1}
+          lat={22.4}
+        />
+        <RestaurantCard
+          id={1}
+          imgUrl={"https://links.papareact.com/gn7"}
+          title={"Homers"}
+          rating={3}
+          genre={"Halaal"}
+          address={"Lilongwe"}
+          short_description={"Best pork and stuff"}
+          dishes={"Alot"}
+          long={22.1}
+          lat={22.4}
+        />
+      </ScrollView>
     </View>
   );
 };

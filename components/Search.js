@@ -9,7 +9,7 @@ import {
 
 const Search = () => {
   return (
-    <View className="flex-row items-center px-4 w-full space-x-2">
+    <View className="flex-row items-center px-4 w-full space-x-2 pb-1">
       <View className="flex-row flex-1 items-center space-x-2 bg-gray-200 p-2">
         <MagnifyingGlassIcon size={SIZES.s20} color={COLORS.gray} />
         <TextInput

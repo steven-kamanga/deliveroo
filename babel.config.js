@@ -1,4 +1,4 @@
-export default function (api) {
+module.exports = function (api) {
   api.cache(true);
   return {
     presets: ["babel-preset-expo"],
@@ -9,4 +9,4 @@ export default function (api) {
       require.resolve("expo-router/babel"),
     ],
   };
-}
+};
