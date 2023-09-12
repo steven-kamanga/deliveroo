@@ -8,7 +8,7 @@ const FeaturedCard = ({ title, id, description }) => {
       <View className="flex-row items-center justify-between mt-4">
         <Text className="font-bold text-lg">{title}</Text>
         <TouchableOpacity>
-          <ArrowRightIcon color={COLORS.primary} />
+          <ArrowRightIcon size={SIZES.s20} color={COLORS.primary} />
         </TouchableOpacity>
       </View>
       <Text className="text-gray-500 text-xs">{description}</Text>
