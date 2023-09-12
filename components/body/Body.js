@@ -1,10 +1,14 @@
 import { ScrollView } from "react-native";
-import Categories from "./Categories";
-import Featured from "./Featured";
+import Categories from "./categories/Categories";
+import Featured from "./featured/Featured";
 
 const Body = () => {
   return (
-    <ScrollView>
+    <ScrollView
+      contentContainerStyle={{
+        paddingBottom: 100,
+      }}
+    >
       <Categories />
       <Featured />
     </ScrollView>

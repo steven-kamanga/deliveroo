@@ -1,10 +1,10 @@
 import { ChevronDownIcon, UserIcon } from "react-native-heroicons/outline";
-import { View, Image, Text } from "react-native";
-import { COLORS, SIZES, styles } from "../constants";
+import { View, Image, Text, TouchableOpacity } from "react-native";
+import { COLORS, SIZES } from "../constants";
 
 const Header = () => {
   return (
-    <View className={styles.headerContainer}>
+    <View className="mt-12 px-4 pb-2 flex-row space-x-2">
       <Image
         className="h-7 w-7 bg-gray-300 rounded-full"
         source={{
@@ -19,7 +19,9 @@ const Header = () => {
           <ChevronDownIcon size={SIZES.s20} color={COLORS.primary} />
         </Text>
       </View>
-      <UserIcon size={SIZES.s35} color={COLORS.primary} />
+      <TouchableOpacity>
+        <UserIcon size={SIZES.s35} color={COLORS.primary} />
+      </TouchableOpacity>
     </View>
   );
 };

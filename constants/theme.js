@@ -18,13 +18,10 @@ const FONT = {
   bold: "DMBold",
 };
 
-const styles = {
-  headerContainer: "py-10 px-6 flex-row pb-3 space-x-2",
-  searchContainer: "flex-row items-center px-6 w-full  space-x-2",
-};
 const SIZES = {
   s10: 10,
   s12: 12,
+  s15: 15,
   s16: 16,
   s20: 20,
   s30: 30,
@@ -32,4 +29,4 @@ const SIZES = {
   s35: 35,
 };
 
-export { COLORS, FONT, SIZES, styles };
+export { COLORS, FONT, SIZES };

@@ -1,7 +1,6 @@
 import { Stack, useRouter } from "expo-router";
 import { SafeAreaView } from "react-native";
-import { COLORS, styles } from "../constants";
-
+import { COLORS } from "../constants";
 import Header from "../components/Header";
 import Search from "../components/Search";
 import Body from "../components/body/Body";

@@ -1,5 +1,5 @@
-import { View, Text, TextInput } from "react-native";
-import { COLORS, SIZES, styles } from "../constants";
+import { View, Text, TextInput, TouchableOpacity } from "react-native";
+import { COLORS, SIZES } from "../constants";
 import {
   ChevronDownIcon,
   MagnifyingGlassIcon,
@@ -9,7 +9,7 @@ import {
 
 const Search = () => {
   return (
-    <View className={styles.searchContainer}>
+    <View className="flex-row items-center px-4 w-full space-x-2">
       <View className="flex-row flex-1 items-center space-x-2 bg-gray-200 p-2">
         <MagnifyingGlassIcon size={SIZES.s20} color={COLORS.gray} />
         <TextInput
@@ -18,7 +18,9 @@ const Search = () => {
           keyboardType="default"
         />
       </View>
-      <AdjustmentsHorizontalIcon size={SIZES.s20} color={COLORS.primary} />
+      <TouchableOpacity>
+        <AdjustmentsHorizontalIcon size={SIZES.s20} color={COLORS.primary} />
+      </TouchableOpacity>
     </View>
   );
 };
