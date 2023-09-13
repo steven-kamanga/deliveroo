@@ -4,7 +4,6 @@ import CategoryCard from "./CategoryCard";
 const Categories = () => {
   return (
     <ScrollView
-      // className="px-6"
       horizontal
       showsHorizontalScrollIndicator={false}
       contentContainerStyle={{

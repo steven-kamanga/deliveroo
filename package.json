@@ -9,6 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@sanity/client": "^6.4.11",
+    "@sanity/image-url": "^1.0.2",
     "expo": "^49.0.3",
     "expo-constants": "~14.4.2",
     "expo-font": "^11.4.0",
