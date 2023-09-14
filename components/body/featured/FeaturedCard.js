@@ -2,8 +2,15 @@ import { View, Text, ScrollView, TouchableOpacity } from "react-native";
 import { ArrowRightIcon } from "react-native-heroicons/outline";
 import { COLORS, SIZES } from "../../../constants";
 import RestaurantCard from "./restaurant/RestaurantCard";
+import { useRouter } from "expo-router";
+import { useEffect, useState } from "react";
 
 const FeaturedCard = ({ title, id, description }) => {
+  const router = useRouter();
+  const [restaurantCard, setRestaurantCard] = useState([]);
+
+  useEffect(() => {}, []);
+
   return (
     <View>
       <View className="flex-row items-center justify-between mt-4">

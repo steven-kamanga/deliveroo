@@ -12,7 +12,7 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'shprt_description',
+      name: 'short_description',
       type: 'string',
       title: 'Short description',
       validation: (Rule) => Rule.required(),
