@@ -1,10 +1,8 @@
-import { View, Text, TextInput, TouchableOpacity } from "react-native";
+import { View, TextInput, TouchableOpacity } from "react-native";
 import { COLORS, SIZES } from "../constants";
 import {
-  ChevronDownIcon,
   MagnifyingGlassIcon,
   AdjustmentsHorizontalIcon,
-  UserIcon,
 } from "react-native-heroicons/outline";
 
 const Search = () => {

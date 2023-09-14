@@ -28,11 +28,12 @@ const SIZES = {
   s30: 30,
   s32: 32,
   s35: 35,
+  s200: 200,
 };
 
 const OPACITY = {
-  o0_5: 0.5,
-  o0_4: 0.4,
+  op0_5: 0.5,
+  op0_4: 0.4,
 };
 
 export { COLORS, FONT, SIZES, OPACITY };

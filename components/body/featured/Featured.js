@@ -1,5 +1,5 @@
-import { View, Text } from "react-native";
-import FeaturedCard from "./FeaturedCard";
+import { View } from "react-native";
+import FeaturedCard from "./FeaturedCard.1";
 import { useRouter } from "expo-router";
 import { useEffect, useState } from "react";
 import client from "../../../sanity";
